@@ -95,7 +95,6 @@ flex-wrap:wrap;
 
 text-decoration:none;
 padding:15px;
-border-bottom: 1px solid black;
 margin:50px;
 color:black;
 text-align:center;
@@ -168,4 +167,17 @@ border:2px solid blue;
 
 background:#121212;
 color:white;
+}
+
+.fixed {
+
+border-bottom:1px solid white;
+
+}
+
+.bordes {
+
+border-bottom: 1px solid black;
+
+
 }
