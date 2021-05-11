@@ -1,7 +1,6 @@
 nav {
 	padding:10px;
 	color:White;
-	justify-content: space-around;
 	display:flex;
 	flex-wrap:wrap;
 	border-bottom:1px solid #e4bad4;
@@ -9,6 +8,7 @@ nav {
 	border-right:1px solid #e4bad4;
 	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 	border-radius:5px;
+	align-items:baseline;
 }
 
 
@@ -37,12 +37,26 @@ body {
 
 }
 
+ul {
+
+display:flex;
+list-style-type: none;
+margin-left:140px;
+}
+
+li {
+
+margin-left:50px;
+
+}
+
 .navenlace {
-	display: inline-block;
+	display: flex;
 background: #766161;
 color:#fff;
 padding:10px 30px;
 text-decoration:none;
+
 }
 
 .navenlace:hover {
@@ -95,4 +109,17 @@ border-bottom:none;
 	width:55px;
 	height:55px;
 	display:flex;
+}
+
+.black {
+
+background-color:#121212;
+color:white;
+
+}
+
+button {
+
+margin-left:50px;
+border:2px solid blue;
 }
