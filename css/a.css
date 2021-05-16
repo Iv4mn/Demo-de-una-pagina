@@ -86,6 +86,7 @@ li {
     text-align:center;
     justify-content:center;
     align-items:baseline;
+    border-bottom: 1px solid black;
 }
 
 .contacto:hover {
@@ -141,8 +142,5 @@ button {
 
 .fixed {
     border-bottom:1px solid white;
-}
-
-.bordes {
-    border-bottom: 1px solid black;
+    color:white;
 }
