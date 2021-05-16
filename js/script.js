@@ -25,7 +25,7 @@ function cambiar() {
             modooscurocontacto[i].classList.toggle('fixed');
         }
     } else {
-        var modoscuro = document.getElementsByClassName('body');
+        var modooscuro = document.getElementsByClassName('body');
 
         for (var i = 0; i < modooscuro.length; i++) {
             modooscuro[i].classList.remove('black');
