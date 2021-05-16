@@ -21,13 +21,12 @@ function cambiar(){
 
         var modooscurocontacto = document.getElementsByClassName('contacto');
 
-        for (var i = 0; i < modooscurocontacto.length; i++){
+        for (var i  = 0; i < modooscurocontacto.length; i++){
             modooscurocontacto[i].classList.toggle('fixed');
-            modooscuro[i].classList.toggle('bordes');
         }
     }
     else {
-        var modooscuro = document.getElementsByClassName('body');
+        var modoscuro = document.getElementsByClassName('body');
 
         for (var i = 0; i < modooscuro.length; i++){
             modooscuro[i].classList.remove('black');
